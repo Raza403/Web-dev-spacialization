@@ -1,0 +1,115 @@
+html body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 1%;
+    padding: 1%;
+}
+img {
+    height: 150px;
+    width: 200px;
+    margin: 5px 47px;
+    border: 1px solid black;
+}
+.left{
+    width: 30%;
+    height: auto;
+    border: 3px solid black;
+    background-color: greenyellow;
+    display: inline-block;
+    overflow: hidden;
+}
+h1 {
+    font-variant: small-caps;
+    text-align: center;
+    color: #FFFFFF;
+}
+header{
+    background: #A9A9A9 url("../images/flywheel.jpg") no-repeat fixed center;
+
+}
+.right{
+    width: 65%;
+    float: right;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: #ffffff;
+}
+nav a:hover,a:focus{
+    background-color: gray;
+    color: white;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    width: 120px;
+}
+.active{
+    background-color: black;
+    color: white;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    width: 120px;
+}
+
+.table{
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #FF00FF;
+    height: auto;
+}
+.table h2{
+    text-align: center;
+    color: black;
+}
+.table p {
+    font-size: 1.3em;
+    text-align: left;
+}
+table { width: 100%; }
+
+th{
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 5px 10px 0 0;
+    background-color: #BA55D3;
+    transition: background-color 0.4s ease;
+    transition: color 0.4s ease;
+}
+th:hover{
+    background-color: blueviolet;
+    border-radius: 0;
+    color: white;
+}
+td {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 1px solid #4B0082;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+td:hover{
+    color: white;
+    background-color: #4B0082;
+    border: 3px solid white;
+}
+td:first-child{
+    text-align: left;
+}
+tr{
+    opacity: 0.8;
+    line-height: 25px;
+    transition: opacity 0.4s ease-out;
+}
+tr:hover{opacity: 1;}
