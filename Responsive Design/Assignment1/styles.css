@@ -6,3 +6,15 @@
     border: 1rem solid white;
     padding: 0 2rem;
 }
+
+.drop-mt{
+    margin-top: 150px;
+}
+/* This is added in media query because it is only needed in less than 767px and  */
+/* if a user doesn't uncollaps the menu then padding can be removed. */
+/* You can check the effect by ommiting the media query and use .mt class only */
+@media screen and (max-width:767px){
+    .mt{
+        margin-top: 200px;
+}    
+}
